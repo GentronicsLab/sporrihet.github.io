@@ -7,13 +7,13 @@ const BASE_W = 800;
 const BASE_H = 600;
 
 var cities = [
-  { name: "Peja",               x: 90,  y: 240 },
+  { name: "Peja",               x: 70,  y: 220 },
   { name: "Prishtina",          x: 500, y: 240 },
   { name: "Gjakova",            x: 120, y: 360 },
   { name: "Deqan",              x: 90,  y: 297 },
   { name: "Istog",              x: 175, y: 210 },
   { name: "Ferizaj",            x: 450, y: 372 },
-  { name: "Gjilan",             x: 590, y: 335 },
+  { name: "Gjilan",             x: 420, y: 290 },
   { name: "Viti",               x: 550, y: 395 },
   { name: "Mitrovica e veriut", x: 270, y: 155 },
   { name: "Mitrovica e jugut",  x: 360, y: 115 },
