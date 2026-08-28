@@ -173,7 +173,7 @@ const checkCity = () => {
     if (city.name === cityName && !correctCities.includes(cityName)) {
       correctCities.push(cityName);
       cityInput.value = "";
-      counter.textContent = `${correctCities.length}/38`;
+      counter.textContent = `${correctCities.length}/37`;
       drawCities();
       break;
     }
