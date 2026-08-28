@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="sq">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gjej Qytetet e Kosovës</title>
+  <link rel="stylesheet" type="text/css" href="guesscities.css" />
+</head>
+
+<body>
+  <div id="dialog-box">
+    <div class="center-content">
+      <p>
+        Mos i perdorni shkronjat ë dhe ç<br>
+        Keni gjithsej 5 minuta kohe
+      </p>
+      <button id="continue-btn">Vazhdoni tek Kuizi</button>
+    </div>
+  </div>
+
+  <div class="page-wrapper">
+    <div id="counter">0/38</div>
+
+    <div id="canvas-container">
+      <canvas id="myCanvas"></canvas>
+    </div>
+
+    <input
+      type="text"
+      id="city-input"
+      autocomplete="off"
+      placeholder="Shkruaj emrin e qytetit"
+      autofocus
+    />
+
+    <div id="clock"></div>
+
+    <div class="alert-box" id="alert-box">
+      <p>Koha mbaroi!</p>
+      <div id="city-list"></div>
+      <button id="play-again-btn">Luaj perseri</button>
+    </div>
+  </div>
+
+  <script src="guesscities.js"></script>
+</body>
+
+</html>
