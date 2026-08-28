@@ -26,7 +26,7 @@ body {
 /* Canvas container — constrains and centers the canvas */
 #canvas-container {
   position: relative;
-  width: 90%;
+  width: 75%;
   max-width: 600px;
   margin: 0 auto;    /* centers it */     /* nudge right — adjust this number */
 }
