@@ -29,7 +29,7 @@ body {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;    /* centers it */
-  left: 90px;        /* nudge right — adjust this number */
+  left: 80px;        /* nudge right — adjust this number */
 }
 
 #myCanvas {
